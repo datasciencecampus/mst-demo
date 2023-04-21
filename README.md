@@ -11,7 +11,7 @@ render it however you please. To render it as it is here, use `nbconvert`:
 
 ```zsh
 $ cd /path/to/iao-mst-demo
-$ jupyter nbconvert --to html --no-input main.ipynb
+$ jupyter nbconvert --to html --no-input main.ipynb --output index.html
 ```
 
 Requirements for running the notebook are defined in `requirements.txt`. You
