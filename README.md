@@ -1,4 +1,4 @@
-# IAO MST Demonstration
+# MST Demonstration
 
 This directory contains the materials needed to demonstrate the MST method for
 synthesising data. To make the demo as accessible as possible, we synthesise the
@@ -10,7 +10,7 @@ save it as `main.csv` in this directory. Then you can run the notebook and
 render it however you please. To render it as it is here, use `nbconvert`:
 
 ```zsh
-$ cd /path/to/iao-mst-demo
+$ cd /path/to/mst-demo
 $ jupyter nbconvert --to html --no-input main.ipynb --output index.html
 ```
 
