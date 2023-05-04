@@ -2,6 +2,7 @@ disjoint-set==0.7.3
 networkx==2.8.5
 numpy==1.23.1
 pandas==1.4.3
+pretty-jupyter==2.0.4
 pygraphviz==1.10.0
 scikit-learn==1.1.1
 scipy==1.8.1

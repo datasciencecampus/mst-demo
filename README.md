@@ -7,11 +7,12 @@ synthesising data. To make the demo as accessible as possible, we synthesise the
 The demonstration can be found in `main.html`, and its source code is in
 `main.ipynb`. If you're recreating the analysis yourself, download the data and
 save it as `main.csv` in this directory. Then you can run the notebook and
-render it however you please. To render it as it is here, use `nbconvert`:
+render it however you please. To render it as it is here, use `nbconvert` and
+`pretty-jupyter`:
 
 ```zsh
 $ cd /path/to/mst-demo
-$ jupyter nbconvert --to html --no-input main.ipynb --output index.html
+$ jupyter nbconvert --to html --no-input --template pj main.ipynb --output index.html
 ```
 
 Requirements for running the notebook are defined in `requirements.txt`. You
